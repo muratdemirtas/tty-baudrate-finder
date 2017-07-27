@@ -35,7 +35,7 @@
 /**
  * @brief to determine baudrate speed, speed_t is octal based variable
  * @param speed_t of tty device
- * @return speed value as char pointer
+ * @return speed value as char array pointer
  * @see http://pubs.opengroup.org/onlinepubs/009695399/basedefs/termios.h.html
  *
  */
