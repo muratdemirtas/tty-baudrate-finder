@@ -7,9 +7,9 @@ repository  containing example to find tty device baudrate.
     $ sudo su
     $ cd tty-baudrate-finder
     $ gcc find_tty_baudrate.c -o finder
-    if you want to know current terminal speed
+ if you want to know current terminal speed
     $ ./finder
-    to find special device speed,
+ to find special device speed,
     $ ./finder < /dev/ttyS0
-    to find usb communication device speed,
+ to find usb communication device speed,
     $ ./finder < /dev/ttyACM0
