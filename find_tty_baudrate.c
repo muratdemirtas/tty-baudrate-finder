@@ -1,5 +1,5 @@
 /****************************************************************************
- * Copyright (C) 2017 by Murat DEMIRTAS                                   *
+ * Copyright (C) 2017 by Murat DEMIRTAS                                     *
  *                                                                          *
  * This file is part of Box.                                                *
  *                                                                          *
@@ -95,10 +95,10 @@ int main(void) {
     perror("tcgetattr() error");
   else {
     in_speed = cfgetispeed(&term);
-    out_speed = cfgetispeed(&term);
+    out_speed = cfgetospeed(&term);
     printf("cfgetispeed() says the speed of standart input is %s\n",
            see_speed(in_speed));
-    printf("cfgetispeed() says the speed of standart output is %s\n",
+    printf("cfgetospeed() says the speed of standart output is %s\n",
            see_speed(out_speed));
   }
 }
