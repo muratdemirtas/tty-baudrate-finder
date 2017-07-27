@@ -22,4 +22,4 @@ repository containing example to find tty devices baudrate. Compiled under Ubunt
     $ ./finder < /dev/ttyUSB0
     
 ## example
-    ![alt tag](http://image-store.slidesharecdn.com/ced6a62b-3944-4418-9071-0ee33c5ccdd6-original.png)
+![alt tag](http://image-store.slidesharecdn.com/ced6a62b-3944-4418-9071-0ee33c5ccdd6-original.png)
