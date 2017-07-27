@@ -1,5 +1,5 @@
 # tty-baudrate-finder
-repository  containing example to find tty device baudrate.
+repository containing example to find tty devices baudrate. Compiled under Ubuntu 17.01 and GCC Version 6.3.0 
 
 ## Usage
 
@@ -20,3 +20,6 @@ repository  containing example to find tty device baudrate.
 
 ## to find USB device speed:
     $ ./finder < /dev/ttyUSB0
+    
+## example
+    ![alt tag](http://image-store.slidesharecdn.com/ced6a62b-3944-4418-9071-0ee33c5ccdd6-original.png)
